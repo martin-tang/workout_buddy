@@ -1,6 +1,6 @@
-# Workout App Standalone
+# Workout Buddy
 
-## Project Overview
+## Overview
 
 This is a standalone full-stack application that combines an Express.js backend with a React frontend (originally a separate workout app client). It allows users to generate workout plans using OpenAI's API, and (optionally) authenticate, save, and manage their workout history with a MongoDB database.
 
@@ -23,10 +23,12 @@ This is a standalone full-stack application that combines an Express.js backend 
 *   `npm run server-install`: Installs server-side dependencies.
 
 
-## To set up locally run scripts 6, 7, 5, 2 and the following .env file. Note* you do not need Mongo to run the app.
+# To set up locally run scripts 6, 7, 5, 2 and the following .env file. Note* you do not need Mongo to run the app.
 
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+
 PORT=3000
+
 MONGO_URI=mongodb://YOUR_MONGO_URI
 
 
